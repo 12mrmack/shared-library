@@ -1,4 +1,4 @@
-def call(string branch,string gitUrl){
+def call(String branch,String gitUrl){
 	stage('Checkout Code') {
             steps {
                 checkout scmGit(
