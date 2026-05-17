@@ -1,3 +1,3 @@
 def call(int name){
- echo name
+  return name
 }
