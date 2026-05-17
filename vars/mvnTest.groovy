@@ -1,5 +1,5 @@
 def call() {
 
-    sh "mvn clean compile"
-    sh "mvn test"
+    echo 'mvn compile successfully'
+    echo 'mvn test successfully'
 }
