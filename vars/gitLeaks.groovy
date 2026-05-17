@@ -1,4 +1,4 @@
-def call(string report_file_name){
+def call(String report_file_name){
 	stage('GitLeaks Scan') {
             steps {
                 sh '''
