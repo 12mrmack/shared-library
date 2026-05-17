@@ -4,7 +4,7 @@ def call(String report_file_name){
                 /usr/local/bin/gitleaks detect \
                 --source . \
                 --report-format json \
-                --report-path ${report_file_name} || true
+                --report-path '${report_file_name}' || true
                 '''
             }
         
