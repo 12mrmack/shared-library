@@ -1,3 +1,3 @@
 def call(int date){
-	echo date
+	return date
 }
