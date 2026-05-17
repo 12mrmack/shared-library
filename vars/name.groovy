@@ -1,3 +1,3 @@
-def call(int name){
+def call(name){
   return name
 }
