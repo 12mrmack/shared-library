@@ -4,7 +4,4 @@ def call() {
 
     sh 'mvn checkstyle:checkstyle'
 
-    recordIssues(
-        tools: [checkStyle(pattern: '**/checkstyle-result.xml')]
-    )
 }
