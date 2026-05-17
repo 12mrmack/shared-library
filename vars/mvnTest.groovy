@@ -1,9 +1,5 @@
-def call(){
-	stage('Maven Compile') {
-                sh "mvn clean compile"
-        }
+def call() {
 
-        stage('Maven Test') {
-                sh "mvn test"
-        }
+    sh "mvn clean compile"
+    sh "mvn test"
 }
